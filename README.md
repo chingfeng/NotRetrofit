@@ -581,7 +581,7 @@ abstract class GitHub {
   // ...
 }
 
-AllTrustedOkHttpClienter extends OkHttpClienter {
+public class AllTrustedOkHttpClienter implements OkHttpClienter {
   @Override OkHttpClient get() {
     // ...
     return okHttpClient;
